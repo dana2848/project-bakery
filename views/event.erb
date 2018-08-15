@@ -1,0 +1,30 @@
+<div class="event-cover">
+  <dsiv>
+    <nav>
+      <li>
+        <a href="/">Home</a>s
+      </li>
+      <li>
+        <a href ="/cookies">cookies</a>
+      </li>
+      <li>
+        <a href="/event">event</a>
+      </li>
+      <li>
+        <a href="/cupcakes">cupcakes</a>
+      </li>
+      <li>
+        <a href="/cakes">cakes</a>
+      </li>
+    </nav>
+  </div>
+</div>
+<h1 class="brand-name">Events</h1>
+<h2 class="title">event</h2>
+<div class = "event-grid">
+<% @req['events'].each do |i| %>
+<img src="<%= i['logo']['url'] %>" size="80%" %>
+<%= i['name']['text'] %>
+<%= i['description']['text'] %>
+<% end %>
+</div>

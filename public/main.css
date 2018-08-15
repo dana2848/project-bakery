@@ -1,0 +1,127 @@
+
+
+.cover {
+			background-image: url("https://www.landscaping.co.uk/images/companies/1/BBQ%20Images/loaf%20of%20bread_rustic_wood%20fired%20oven.jpg?1498650380206");
+			background-repeat: no-repeat;
+			background-position: left top;
+      background-size: cover;
+			background-attachment: fixed;
+		}
+
+.cookies-cover {
+			background-image: url("https://assets.marthastewart.com/styles/wmax-1500/d32/ideal-sugar-cookies-6379807-0717/ideal-sugar-cookies-6379807-0717_horiz.jpg?itok=OsDicfnW");
+			background-repeat: no-repeat;
+			background-position: left top;
+		  background-size: cover;
+			background-attachment: fixed;
+				}
+
+.cupcake-cover {
+			background-image: url("https://lovingitvegan.com/wp-content/uploads/2016/05/Gluten-Free-Chocolate-Cupcakes-5.jpg");
+			background-repeat: no-repeat;
+			background-position: left top;
+			background-size: cover;
+			background-attachment: fixed;
+								}
+
+.cake-cover {
+			background-image: url("https://cdn.shopify.com/s/files/1/2414/4315/products/Red-Velvet-Cake-1024x1024px_1024x1024.jpg?v=1508826909");
+			background-repeat: no-repeat;
+			background-position: left top;
+			background-size: cover;
+			background-attachment: fixed;
+								}
+.event-cover {
+			background-image: url("https://parismadeleine.hyatthotels.hyatt.com/content/dam/PropertyWebsites/hyatt/madel/Media/All/Hyatt-Paris-Madeleine-P181-Pastries-Workshop.masthead-feature-panel-medium.jpg");
+			background-repeat: no-repeat;
+			background-position: left top;
+			background-size: cover;
+			background-attachment: fixed;
+																}
+
+.brand-name {
+    font-size: 100px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 10px #000000;
+		font-family: 'Patua One', cursive;
+		letter-spacing: 3px;
+}
+h2, h3, li, ul {
+  font-family: 'Walter Turncoat', cursive;
+}
+
+nav {
+  height: 520px;
+}
+
+ul {
+  margin: 0px;
+  padding: 5px 5px 5px 30px;
+  color: #1a0d00;
+
+}
+
+li {
+  display: inline;
+  margin-right: 5%;
+  font-color: #1a0d00;
+
+  }
+
+  .info-grid {
+  	display: grid;
+  	grid-template: 500px / 30% 30% 30%;
+  	grid-gap: 5%;
+  	margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+/* ======================================== */
+	.event-grid {
+  	display: grid;
+  	grid-template: 300px / 30% 65%;
+  	grid-gap: 2%;
+  	margin-top: 2%;
+		margin-bottom: 2%;
+    margin-left: 4%;s
+    margin-right: 4%;
+		padding: 19px;
+		border-bottom: 10px;
+		margin: -10px;
+  }
+
+	.food-grid {
+		display: grid;
+  	grid-template: 500px / 45% 45%;
+  	grid-gap: 5%;
+  	margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+
+  }
+
+  .title {
+    text-align: center;
+    font-size: 40;
+  }
+
+  .info-header {
+  	text-align: center;
+  }
+
+
+
+  .footer-grid {
+    display: grid;
+    grid-template: 200px / 40% 40%;
+    grid-gap: 10%;
+    margin-top: 2%;
+  }
+
+  .footer-left {
+    padding-left: 10%;
+  }
